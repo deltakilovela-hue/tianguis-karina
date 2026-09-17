@@ -21,6 +21,9 @@
 
 * { box-sizing: border-box; }
 
+html { scroll-behavior: smooth; }
+#productGrid { scroll-margin-top: 14px; }
+
 body {
   margin: 0;
   font-family: 'Poppins', system-ui, sans-serif;
@@ -82,6 +85,82 @@ button { font-family: inherit; }
 .icon-btn-plain:hover { background: rgba(0,0,0,0.06); }
 .icon-btn-plain:active { transform: scale(0.92); }
 
+/* Hero */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: var(--ink);
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
+  animation: heroZoom 12s ease-out both;
+}
+@keyframes heroZoom {
+  from { transform: scale(1.06); }
+  to { transform: scale(1); }
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(47,42,40,0.1) 0%, rgba(47,42,40,0.55) 60%, rgba(31,26,24,0.88) 100%);
+}
+.hero-content {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 20px 20px 26px;
+  text-align: center;
+  color: white;
+  animation: cardIn 500ms var(--ease-out) both;
+}
+.hero-kicker {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #f4c9b8;
+  margin-bottom: 4px;
+}
+.hero-title {
+  font-size: clamp(1.6rem, 6vw, 2.4rem);
+  margin: 0 0 6px;
+  color: white;
+}
+.hero-subtitle {
+  font-size: 0.82rem;
+  line-height: 1.4;
+  max-width: 440px;
+  margin: 0 auto 14px;
+  opacity: 0.95;
+}
+.hero-cta {
+  display: inline-block;
+  background: var(--terracotta);
+  color: white;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  padding: 11px 24px;
+  border-radius: 999px;
+  transition: background var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+}
+.hero-cta:hover { background: var(--terracotta-dark); }
+.hero-cta:active { transform: scale(0.96); }
+
+@media (min-width: 640px) {
+  .hero { height: 360px; }
+}
+@media (min-width: 900px) {
+  .hero { height: 420px; }
+  .hero-subtitle { max-width: 560px; }
+}
+
 /* Header */
 .site-header {
   background: linear-gradient(135deg, var(--terracotta), var(--terracotta-dark));
@@ -107,7 +186,13 @@ button { font-family: inherit; }
   font-size: 1.3rem;
   flex-shrink: 0;
 }
-.brand-text h1 { font-size: 1.35rem; line-height: 1.1; }
+.brand-text .brand-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  line-height: 1.1;
+  margin: 0;
+}
 .brand-text p { margin: 2px 0 0; font-size: 0.78rem; opacity: 0.9; }
 
 .header-actions { display: flex; align-items: center; gap: 8px; }

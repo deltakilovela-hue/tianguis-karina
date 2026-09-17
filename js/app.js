@@ -82,6 +82,7 @@ async function init() {
   render();
   updateCartUI();
   bindEvents();
+  maybeShowIntroOnLoad();
 }
 
 function buildCategoryPills() {
@@ -294,6 +295,23 @@ function closeModal() {
   el("#modalOverlay").classList.remove("visible");
 }
 
+function openIntro() {
+  el("#introOverlay").classList.add("visible");
+}
+function closeIntro() {
+  el("#introOverlay").classList.remove("visible");
+  try {
+    localStorage.setItem("karina_intro_seen", "1");
+  } catch {}
+}
+function maybeShowIntroOnLoad() {
+  let seen = false;
+  try {
+    seen = localStorage.getItem("karina_intro_seen") === "1";
+  } catch {}
+  if (!seen) openIntro();
+}
+
 function buildWhatsAppMessage() {
   const items = PRODUCTS.filter((p) => cart.has(p.id));
   const name = el("#customerName").value.trim();
@@ -346,6 +364,13 @@ function bindEvents() {
 
   const banner = el("#previewBanner");
   el("#closeBanner").addEventListener("click", () => (banner.hidden = true));
+
+  el("#helpBtn").addEventListener("click", openIntro);
+  el("#introCloseBtn").addEventListener("click", closeIntro);
+  el("#introGotItBtn").addEventListener("click", closeIntro);
+  el("#introOverlay").addEventListener("click", (e) => {
+    if (e.target.id === "introOverlay") closeIntro();
+  });
 }
 
 init();

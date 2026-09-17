@@ -42,6 +42,11 @@ const cartItemsEl = el("#cartItems");
 const cartEmptyMsg = el("#cartEmptyMsg");
 const cartSummary = el("#cartSummary");
 const cartTotalEl = el("#cartTotal");
+const cartReviewHeading = el("#cartReviewHeading");
+const stickyCartBar = el("#stickyCartBar");
+const stickyCartCount = el("#stickyCartCount");
+const stickyCartLabel = el("#stickyCartLabel");
+const stickyCartTotal = el("#stickyCartTotal");
 
 function loadCart() {
   try {
@@ -202,10 +207,14 @@ function updateCartUI() {
     cartItemsEl.innerHTML = "";
     cartEmptyMsg.style.display = "block";
     cartSummary.style.display = "none";
+    cartReviewHeading.style.display = "none";
+    stickyCartBar.hidden = true;
+    document.body.classList.remove("has-sticky-cart");
     return;
   }
   cartEmptyMsg.style.display = "none";
   cartSummary.style.display = "block";
+  cartReviewHeading.style.display = "block";
 
   cartItemsEl.innerHTML = items
     .map(
@@ -228,6 +237,12 @@ function updateCartUI() {
 
   const total = items.reduce((sum, p) => sum + p.price, 0);
   cartTotalEl.textContent = money(total);
+
+  stickyCartBar.hidden = false;
+  stickyCartCount.textContent = items.length;
+  stickyCartLabel.textContent = `Ver pedido (${items.length})`;
+  stickyCartTotal.textContent = money(total);
+  document.body.classList.add("has-sticky-cart");
 }
 
 function openCart() {
@@ -314,6 +329,7 @@ function bindEvents() {
   sortFilter.addEventListener("change", render);
 
   el("#cartBtn").addEventListener("click", openCart);
+  stickyCartBar.addEventListener("click", openCart);
   el("#closeCart").addEventListener("click", closeCart);
   el("#overlay").addEventListener("click", closeCart);
   el("#modalOverlay").addEventListener("click", (e) => {

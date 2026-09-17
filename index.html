@@ -145,6 +145,16 @@
   <p>Catálogo hecho para pedidos por WhatsApp. Los precios son de referencia y se confirman al hacer tu pedido.</p>
 </footer>
 
+<!-- Sticky "view cart" bar, shown once something is added -->
+<button class="sticky-cart-bar" id="stickyCartBar" type="button" hidden>
+  <span class="sticky-cart-icon">
+    <svg class="icon" width="20" height="20"><use href="#icon-bag"/></svg>
+    <span class="sticky-cart-count" id="stickyCartCount">0</span>
+  </span>
+  <span class="sticky-cart-label" id="stickyCartLabel">Ver pedido</span>
+  <span class="sticky-cart-total" id="stickyCartTotal">$0</span>
+</button>
+
 <!-- Cart drawer -->
 <div class="overlay" id="overlay"></div>
 <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
@@ -153,6 +163,11 @@
     <button id="closeCart" class="icon-btn-plain" aria-label="Cerrar">
       <svg class="icon" width="18" height="18"><use href="#icon-close"/></svg>
     </button>
+  </div>
+
+  <div class="cart-review-heading" id="cartReviewHeading">
+    <h3>Revisa tu pedido</h3>
+    <p>Verifica que las fotos sean las prendas correctas antes de enviarlo.</p>
   </div>
 
   <div class="cart-items" id="cartItems"></div>

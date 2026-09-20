@@ -3,13 +3,14 @@
     "id": "disfraz-thor-nino",
     "title": "Disfraz de Thor con capa roja para niño",
     "category": "ropa_nino",
-    "size": "Niño 6-8 años",
+    "size": "8",
     "brand": null,
     "description": "Disfraz completo de Thor con peto negro y plateado, cinturón café con hebillas, capa roja larga y pantalón a juego. Ideal para fiestas temáticas o Halloween.",
     "condition": "Usado - buen estado",
-    "price": 250,
+    "price": 75,
     "images": [
-      "IMG_0052.jpg"
+      "IMG_0052.jpg",
+      "promo-disfraz-thor-nino.jpg"
     ]
   },
   {
@@ -44,26 +45,28 @@
     "id": "sudadera-colorblock-rojo-negro-blanco-nino",
     "title": "Sudadera con capucha tricolor rojo, negro y blanco",
     "category": "ropa_nino",
-    "size": "Niño 6-8 años",
+    "size": "10",
     "brand": null,
     "description": "Sudadera con capucha en bloques de color rojo, negro y blanco, con pequeño bordado de calavera con audífonos en el pecho. Tela afelpada suave y abrigadora.",
     "condition": "Usado - buen estado",
-    "price": 180,
+    "price": 25,
     "images": [
-      "IMG_1828.jpg"
+      "IMG_1828.jpg",
+      "promo-sudadera-colorblock-rojo-negro-blanco-nino.jpg"
     ]
   },
   {
     "id": "playera-naruto-gris-nino",
     "title": "Playera gris estampado Naruto",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "10-12",
     "brand": "Naruto",
     "description": "Playera gris de manga corta con estampado del personaje Naruto, ideal para fans del anime.",
     "condition": "Usado - buen estado",
-    "price": 110,
+    "price": 25,
     "images": [
-      "IMG_1830.jpg"
+      "IMG_1830.jpg",
+      "promo-playera-naruto-gris-nino.jpg"
     ]
   },
   {
@@ -109,14 +112,15 @@
     "id": "pantalon-caqui-nino",
     "title": "Pantalón de mezclilla color caqui para niño",
     "category": "ropa_nino",
-    "size": "Niño 6-7 años",
+    "size": "8",
     "brand": null,
     "description": "Pantalón de mezclilla en color caqui, corte recto, con bolsillos funcionales, ideal para uso escolar o casual.",
     "condition": "Usado - buen estado",
-    "price": 140,
+    "price": 60,
     "images": [
       "IMG_1837.jpg",
-      "IMG_1838.jpg"
+      "IMG_1838.jpg",
+      "promo-pantalon-caqui-nino.jpg"
     ]
   },
   {
@@ -175,13 +179,14 @@
     "id": "polo-colorblock-navy-rojo-azul",
     "title": "Polo tricolor azul marino, rojo y azul con cierre",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "9-10",
     "brand": null,
     "description": "Polo deportivo en bloques de color azul marino, rojo y azul, con cuello y bolsillo en contraste, cierre tipo zipper en el cuello.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 80,
     "images": [
-      "IMG_1844.jpg"
+      "IMG_1844.jpg",
+      "promo-polo-colorblock-navy-rojo-azul.jpg"
     ]
   },
   {
@@ -201,52 +206,56 @@
     "id": "camisa-blanca-vestir-nino",
     "title": "Camisa blanca de vestir manga larga para niño",
     "category": "ropa_nino",
-    "size": "Niño talla 10",
+    "size": "10",
     "brand": null,
     "description": "Camisa blanca formal de manga larga con bolsillo frontal, ideal para eventos o uso escolar formal.",
     "condition": "Usado - buen estado",
-    "price": 110,
+    "price": 20,
     "images": [
-      "IMG_1846.jpg"
+      "IMG_1846.jpg",
+      "promo-camisa-blanca-vestir-nino.jpg"
     ]
   },
   {
     "id": "pantalon-rosa-acampanado-nina",
     "title": "Pantalón rosa acampanado de tiro alto",
     "category": "ropa_nina",
-    "size": "Niña/Juvenil 5",
+    "size": "CH",
     "brand": null,
     "description": "Pantalón rosa mexicano tipo acampanado, tiro alto, tela stretch cómoda, ideal para look casual o de fiesta.",
     "condition": "Usado - buen estado",
-    "price": 160,
+    "price": 60,
     "images": [
-      "IMG_1848.jpg"
+      "IMG_1848.jpg",
+      "promo-pantalon-rosa-acampanado-nina.jpg"
     ]
   },
   {
     "id": "playera-henley-marino-estrella-nino",
     "title": "Playera azul marino con logo de estrella",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "12",
     "brand": null,
     "description": "Playera azul marino tipo henley con pequeño logo bordado de estrella roja en el pecho, cuello con botones.",
     "condition": "Usado - buen estado",
-    "price": 100,
+    "price": 75,
     "images": [
-      "IMG_1849.jpg"
+      "IMG_1849.jpg",
+      "promo-playera-henley-marino-estrella-nino.jpg"
     ]
   },
   {
     "id": "pantalon-azul-satinado-nina",
     "title": "Pantalón azul rey satinado brillante",
     "category": "ropa_nina",
-    "size": "Niña/Juvenil 5",
+    "size": "CH",
     "brand": null,
     "description": "Pantalón azul rey de tela satinada con brillo, corte recto, ideal para un look de fiesta.",
     "condition": "Usado - buen estado",
-    "price": 150,
+    "price": 65,
     "images": [
-      "IMG_1850.jpg"
+      "IMG_1850.jpg",
+      "promo-pantalon-azul-satinado-nina.jpg"
     ]
   },
   {
@@ -266,13 +275,14 @@
     "id": "playera-game-negra-nino",
     "title": "Playera negra estampado 'Game' control de videojuegos",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "8-10",
     "brand": null,
     "description": "Playera negra con estampado verde de un control de videojuegos y texto 'Game', ideal para los amantes de los videojuegos.",
     "condition": "Usado - buen estado",
-    "price": 100,
+    "price": 25,
     "images": [
-      "IMG_1852.jpg"
+      "IMG_1852.jpg",
+      "promo-playera-game-negra-nino.jpg"
     ]
   },
   {
@@ -438,14 +448,15 @@
     "id": "kimono-floral-negro-dama",
     "title": "Kimono/blusa floral negra con flores blancas y amarillas",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "CH",
     "brand": null,
     "description": "Prenda floral negra con estampado de flores blancas y amarillas, manga corta, ideal como kimono abierto o blusa cruzada.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 30,
     "images": [
       "IMG_1872.jpg",
-      "IMG_1871.jpg"
+      "IMG_1871.jpg",
+      "promo-kimono-floral-negro-dama.jpg"
     ]
   },
   {
@@ -544,13 +555,14 @@
     "id": "playera-llama-fortnite-nino",
     "title": "Playera negra manga larga estampado llama estilo videojuego",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "12-14",
     "brand": null,
     "description": "Playera negra de manga larga con estampado de llama/alpaca colorida sobre fondo a cuadros, estilo videojuego.",
     "condition": "Usado - buen estado",
-    "price": 100,
+    "price": 40,
     "images": [
-      "IMG_1881.jpg"
+      "IMG_1881.jpg",
+      "promo-playera-llama-fortnite-nino.jpg"
     ]
   },
   {
@@ -650,26 +662,28 @@
     "id": "leggings-rayas-blanco-negro-dama",
     "title": "Leggings de rayas blanco y negro",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "CH",
     "brand": null,
     "description": "Leggings a rayas verticales blanco y negro, cintura elástica, cómodos y versátiles.",
     "condition": "Usado - buen estado",
-    "price": 120,
+    "price": 45,
     "images": [
-      "IMG_1889.jpg"
+      "IMG_1889.jpg",
+      "promo-leggings-rayas-blanco-negro-dama.jpg"
     ]
   },
   {
     "id": "playera-blanca-bolsillo-camuflaje-nino",
     "title": "Playera blanca con bolsillo camuflado",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "10-12",
     "brand": null,
     "description": "Playera blanca con estampado diagonal y bolsillo estampado camuflaje en el pecho, manga corta.",
     "condition": "Usado - buen estado",
-    "price": 100,
+    "price": 25,
     "images": [
-      "IMG_1890.jpg"
+      "IMG_1890.jpg",
+      "promo-playera-blanca-bolsillo-camuflaje-nino.jpg"
     ]
   },
   {
@@ -754,52 +768,56 @@
     "id": "blusa-blanca-flores-negras-dama",
     "title": "Blusa blanca con estampado de enredaderas negras",
     "category": "ropa_dama",
-    "size": "Dama M",
+    "size": "CH-M",
     "brand": null,
     "description": "Blusa blanca de manga larga con estampado de ramas y flores en negro, botones al frente, elegante y versátil.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 35,
     "images": [
-      "IMG_1898.jpg"
+      "IMG_1898.jpg",
+      "promo-blusa-blanca-flores-negras-dama.jpg"
     ]
   },
   {
     "id": "pantalon-fucsia-satinado-dama",
     "title": "Pantalón fucsia satinado de pierna ancha",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "XS",
     "brand": null,
     "description": "Pantalón en tono fucsia brillante, tela satinada, pierna ancha con bolsillo trasero, ideal para look de fiesta.",
     "condition": "Usado - buen estado",
-    "price": 160,
+    "price": 120,
     "images": [
-      "IMG_1899.jpg"
+      "IMG_1899.jpg",
+      "promo-pantalon-fucsia-satinado-dama.jpg"
     ]
   },
   {
     "id": "blusa-blanca-olan-amarre-dama",
     "title": "Blusa blanca con olán cruzado y amarre",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "CH",
     "brand": null,
     "description": "Blusa blanca semitransparente con olán en el escote y amarre frontal, manga larga con puño ajustable.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 25,
     "images": [
-      "IMG_1900.jpg"
+      "IMG_1900.jpg",
+      "promo-blusa-blanca-olan-amarre-dama.jpg"
     ]
   },
   {
     "id": "camisa-rayas-azul-blanco-nino",
     "title": "Camisa de rayas azul y blanco manga corta",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "10",
     "brand": null,
     "description": "Camisa de rayas verticales azul y blanco, manga corta con bolsillo al frente, ideal para uso casual o escolar.",
     "condition": "Usado - buen estado",
-    "price": 110,
+    "price": 35,
     "images": [
-      "IMG_1901.jpg"
+      "IMG_1901.jpg",
+      "promo-camisa-rayas-azul-blanco-nino.jpg"
     ]
   },
   {
@@ -819,13 +837,14 @@
     "id": "pants-jogger-negro-wilson-caballero",
     "title": "Pants jogger negro deportivo Wilson",
     "category": "ropa_caballero",
-    "size": "Caballero M",
+    "size": "10",
     "brand": "Wilson",
     "description": "Pantalón deportivo tipo jogger en negro, marca Wilson, cintura elástica con cordón, puños ajustados en el tobillo.",
     "condition": "Usado - buen estado",
-    "price": 180,
+    "price": 35,
     "images": [
-      "IMG_1903.jpg"
+      "IMG_1903.jpg",
+      "promo-pants-jogger-negro-wilson-caballero.jpg"
     ]
   },
   {
@@ -858,52 +877,56 @@
     "id": "top-verde-olivo-flecos-dama",
     "title": "Top verde olivo con flecos y tirantes",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "XS",
     "brand": null,
     "description": "Top corto en verde olivo con textura de flecos, tirantes finos, ideal para look de playa o fiesta.",
     "condition": "Usado - buen estado",
-    "price": 100,
+    "price": 45,
     "images": [
-      "IMG_1906.jpg"
+      "IMG_1906.jpg",
+      "promo-top-verde-olivo-flecos-dama.jpg"
     ]
   },
   {
     "id": "camisa-floral-azul-polo-club-caballero",
     "title": "Camisa floral azul marino Polo Club",
     "category": "ropa_caballero",
-    "size": "Caballero M",
+    "size": "CH",
     "brand": "Polo Club",
     "description": "Camisa de manga corta con estampado floral en tonos azules, marca Polo Club, botones al frente.",
     "condition": "Usado - buen estado",
-    "price": 160,
+    "price": 100,
     "images": [
-      "IMG_1907.jpg"
+      "IMG_1907.jpg",
+      "promo-camisa-floral-azul-polo-club-caballero.jpg"
     ]
   },
   {
     "id": "camisa-negra-jaspeada-polo-club-caballero",
     "title": "Camisa negra jaspeada Polo Club slim fit",
     "category": "ropa_caballero",
-    "size": "Caballero M",
+    "size": "CH",
     "brand": "Polo Club",
     "description": "Camisa negra jaspeada de manga larga, corte slim fit, marca Polo Club con logo bordado, ideal para un look casual elegante.",
     "condition": "Usado - buen estado",
-    "price": 160,
+    "price": 100,
     "images": [
-      "IMG_1908.jpg"
+      "IMG_1908.jpg",
+      "promo-camisa-negra-jaspeada-polo-club-caballero.jpg"
     ]
   },
   {
     "id": "camisa-blanca-estampado-polo-club-caballero",
     "title": "Camisa blanca estampado geométrico Polo Club",
     "category": "ropa_caballero",
-    "size": "Caballero M",
+    "size": "CH",
     "brand": "Polo Club",
     "description": "Camisa blanca de manga corta con estampado geométrico en azul marino, marca Polo Club, ideal para look casual.",
     "condition": "Usado - buen estado",
-    "price": 160,
+    "price": 95,
     "images": [
-      "IMG_1909.jpg"
+      "IMG_1909.jpg",
+      "promo-camisa-blanca-estampado-polo-club-caballero.jpg"
     ]
   },
   {
@@ -923,14 +946,15 @@
     "id": "vestido-largo-satinado-turquesa-dama",
     "title": "Vestido largo satinado turquesa con pedrería",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "CH",
     "brand": null,
     "description": "Vestido largo elegante en satín turquesa, escote corazón con pedrería, abertura lateral, ideal para gala o XV años.",
     "condition": "Usado - buen estado",
-    "price": 280,
+    "price": 250,
     "images": [
       "IMG_1911.jpg",
-      "IMG_1912.jpg"
+      "IMG_1912.jpg",
+      "promo-vestido-largo-satinado-turquesa-dama.jpg"
     ]
   },
   {
@@ -1108,13 +1132,14 @@
     "id": "short-azul-marino-cordon-caballero",
     "title": "Short azul marino con cordón ajustable",
     "category": "ropa_caballero",
-    "size": "Caballero M",
+    "size": "12",
     "brand": null,
     "description": "Short casual azul marino con cordón blanco ajustable en la cintura y bolsillos laterales.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 65,
     "images": [
-      "IMG_1930.jpg"
+      "IMG_1930.jpg",
+      "promo-short-azul-marino-cordon-caballero.jpg"
     ]
   },
   {
@@ -1160,13 +1185,14 @@
     "id": "bikini-verde-tropical-dama",
     "title": "Bikini estampado tropical verde con amarres",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "CH",
     "brand": null,
     "description": "Bikini de dos piezas con estampado tropical de hojas verdes y detalles naranjas, top con amarres y bombacho con moño.",
     "condition": "Usado - buen estado",
-    "price": 150,
+    "price": 60,
     "images": [
-      "IMG_1934.jpg"
+      "IMG_1934.jpg",
+      "promo-bikini-verde-tropical-dama.jpg"
     ]
   },
   {
@@ -1281,13 +1307,14 @@
     "id": "playera-uv-tiburon-nino",
     "title": "Playera UV manga larga 'Robot Shark Power'",
     "category": "ropa_nino",
-    "size": "Niño 10-12 años",
+    "size": "16",
     "brand": null,
     "description": "Playera deportiva de manga larga con protección UPF 50+, estampado de tiburón robot y mangas con diseño camuflado azul.",
     "condition": "Usado - buen estado",
-    "price": 120,
+    "price": 70,
     "images": [
-      "IMG_1948.jpg"
+      "IMG_1948.jpg",
+      "promo-playera-uv-tiburon-nino.jpg"
     ]
   },
   {

@@ -98,7 +98,7 @@
   {
     "id": "sudadera-caritas-amarillo-gris",
     "title": "Sudadera gris con estampado de caritas amarillas estilo grafiti",
-    "category": "ropa_dama",
+    "category": "ropa_nino",
     "size": "8-10",
     "brand": null,
     "description": "Sudadera gris con estampado llamativo de caritas sonrientes en amarillo y negro estilo grafiti, manga larga y cuello redondo.",
@@ -516,7 +516,7 @@
     "id": "vestido-sueter-mickey-la-nina",
     "title": "Vestido sudadera con capucha Mickey Mouse 'Los Angeles'",
     "category": "ropa_dama",
-    "size": "8-10",
+    "size": "Consultar talla",
     "brand": "Disney",
     "description": "Vestido tipo sudadera de rayas negras y blancas con capucha y estampado de Mickey Mouse 'Los Angeles', manga larga.",
     "condition": "Usado - buen estado",

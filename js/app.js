@@ -139,6 +139,8 @@ function render() {
   emptyState.hidden = list.length !== 0;
   grid.innerHTML = list.map((p, i) => cardHTML(p, i)).join("");
 
+  grid.querySelectorAll(".carousel").forEach((c) => initCarousel(c));
+
   grid.querySelectorAll(".card-media, .card-title").forEach((node) => {
     node.addEventListener("click", () => openModal(node.closest(".card").dataset.id));
   });
@@ -151,19 +153,66 @@ function render() {
   });
 }
 
+function carouselHTML(images, title, extraClass = "") {
+  const multi = images.length > 1;
+  const alt = escapeHTML(title);
+  return `
+  <div class="carousel ${extraClass}" data-count="${images.length}">
+    <div class="carousel-track">
+      ${images
+        .map((img, i) => `<div class="carousel-slide"><img src="images/${img}" alt="${alt}"${i === 0 ? "" : ' loading="lazy"'} draggable="false"></div>`)
+        .join("")}
+    </div>
+    ${
+      multi
+        ? `<span class="carousel-counter">1/${images.length}</span>
+    <button type="button" class="carousel-arrow prev" aria-label="Foto anterior" hidden><svg class="icon" width="16" height="16"><use href="#icon-chevron"/></svg></button>
+    <button type="button" class="carousel-arrow next" aria-label="Foto siguiente"><svg class="icon" width="16" height="16"><use href="#icon-chevron"/></svg></button>
+    <div class="carousel-dots">${images.map((_, i) => `<span class="dot${i === 0 ? " active" : ""}"></span>`).join("")}</div>`
+        : ""
+    }
+  </div>`;
+}
+
+function initCarousel(root, startIndex = 0) {
+  const count = Number(root.dataset.count);
+  if (count < 2) return;
+  const track = root.querySelector(".carousel-track");
+  const dots = [...root.querySelectorAll(".dot")];
+  const counter = root.querySelector(".carousel-counter");
+  const prev = root.querySelector(".prev");
+  const next = root.querySelector(".next");
+
+  const index = () => {
+    const w = track.clientWidth;
+    return w ? Math.min(count - 1, Math.max(0, Math.round(track.scrollLeft / w))) : 0;
+  };
+  const update = () => {
+    const i = index();
+    root.dataset.index = i;
+    dots.forEach((d, k) => d.classList.toggle("active", k === i));
+    counter.textContent = `${i + 1}/${count}`;
+    prev.hidden = i === 0;
+    next.hidden = i === count - 1;
+  };
+  const go = (i) => track.scrollTo({ left: i * track.clientWidth, behavior: "smooth" });
+
+  track.addEventListener("scroll", update, { passive: true });
+  prev.addEventListener("click", (e) => { e.stopPropagation(); go(index() - 1); });
+  next.addEventListener("click", (e) => { e.stopPropagation(); go(index() + 1); });
+
+  if (startIndex) track.scrollLeft = startIndex * track.clientWidth;
+  update();
+}
+
 function cardHTML(p, i = 0) {
   const inCart = cart.has(p.id);
   const delay = Math.min(i, 11) * 35;
   return `
   <article class="card" data-id="${p.id}" style="animation-delay:${delay}ms">
     <div class="card-media">
-      <img src="${imgSrc(p)}" alt="${escapeHTML(p.title)}" loading="lazy">
+      ${carouselHTML(p.images, p.title)}
       ${p.condition === "Nuevo con etiqueta" ? '<span class="badge new">Nuevo</span>' : ""}
-      ${
-        p.images.length > 1
-          ? `<span class="photo-count"><svg class="icon" width="12" height="12"><use href="#icon-camera"/></svg>${p.images.length}</span>`
-          : ""
-      }
     </div>
     <div class="card-body">
       <div class="card-title">${escapeHTML(p.title)}</div>
@@ -257,7 +306,7 @@ function closeCart() {
   el("#cartDrawer").setAttribute("aria-hidden", "true");
 }
 
-function openModal(id) {
+function openModal(id, startIndex = 0) {
   const p = PRODUCTS.find((x) => x.id === id);
   if (!p) return;
   const modal = el("#productModal");
@@ -266,9 +315,7 @@ function openModal(id) {
     <button class="modal-close" id="modalCloseBtn" aria-label="Cerrar">
       <svg class="icon" width="16" height="16"><use href="#icon-close"/></svg>
     </button>
-    <div class="modal-gallery">
-      ${p.images.map((img) => `<img src="images/${img}" alt="${escapeHTML(p.title)}">`).join("")}
-    </div>
+    ${carouselHTML(p.images, p.title, "modal-carousel")}
     <div class="modal-body">
       <div class="card-meta">${CATEGORY_LABELS[p.category] || ""} ${p.brand ? "· " + escapeHTML(p.brand) : ""}</div>
       <div class="card-title">${escapeHTML(p.title)}</div>
@@ -286,10 +333,12 @@ function openModal(id) {
   `;
   el("#modalCloseBtn").addEventListener("click", closeModal);
   el("#modalAddBtn").addEventListener("click", () => {
+    const current = Number(modal.querySelector(".carousel").dataset.index || 0);
     toggleCart(p.id);
-    openModal(p.id);
+    openModal(p.id, current);
   });
   el("#modalOverlay").classList.add("visible");
+  initCarousel(modal.querySelector(".carousel"), startIndex);
 }
 function closeModal() {
   el("#modalOverlay").classList.remove("visible");
@@ -364,6 +413,18 @@ function bindEvents() {
 
   const banner = el("#previewBanner");
   el("#closeBanner").addEventListener("click", () => (banner.hidden = true));
+
+  document.addEventListener("keydown", (e) => {
+    const modalOpen = el("#modalOverlay").classList.contains("visible");
+    if (e.key === "Escape") {
+      closeModal();
+      closeIntro();
+      closeCart();
+    } else if (modalOpen && (e.key === "ArrowRight" || e.key === "ArrowLeft")) {
+      const btn = el("#productModal ." + (e.key === "ArrowRight" ? "next" : "prev"));
+      if (btn && !btn.hidden) btn.click();
+    }
+  });
 
   el("#helpBtn").addEventListener("click", openIntro);
   el("#introCloseBtn").addEventListener("click", closeIntro);

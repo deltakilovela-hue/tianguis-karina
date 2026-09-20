@@ -391,9 +391,10 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
 .card:hover .card-media img { transform: scale(1.05); }
 
 .card-media {
+  position: relative;
   aspect-ratio: 3/4;
   background: var(--blush);
-  overflow: hidden;
+  overflow: visible;
   cursor: pointer;
 }
 .card-media img {
@@ -412,18 +413,6 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
   border-radius: 999px;
 }
 .badge.new { background: var(--green); }
-.photo-count {
-  position: absolute;
-  bottom: 8px; right: 8px;
-  background: rgba(0,0,0,0.55);
-  color: white;
-  font-size: 0.65rem;
-  padding: 3px 8px;
-  border-radius: 999px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
 .card-body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
 .card-title { font-size: 0.86rem; font-weight: 600; line-height: 1.25; cursor: pointer; }
 .card-meta { font-size: 0.72rem; color: var(--ink-soft); }
@@ -663,15 +652,6 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
   transition: background var(--dur-fast) var(--ease-out);
 }
 .modal-close:hover { background: rgba(47,42,40,0.9); }
-.modal-gallery { display: flex; gap: 6px; overflow-x: auto; padding: 0 14px; scroll-snap-type: x mandatory; margin-top: -32px; }
-.modal-gallery img {
-  width: 100%;
-  flex-shrink: 0;
-  scroll-snap-align: start;
-  border-radius: 10px;
-  aspect-ratio: 3/4;
-  object-fit: cover;
-}
 .modal-body { padding: 16px 18px 20px; }
 .modal-body .card-meta { margin-bottom: 4px; }
 .modal-body .card-title { font-size: 1.05rem; margin-bottom: 4px; cursor: default; }
@@ -835,3 +815,70 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
   .card:hover { transform: none; }
   .card:hover .card-media img { transform: none; }
 }
+
+/* Instagram-style carousel */
+.carousel { position: relative; width: 100%; height: 100%; }
+.card-media:has(.carousel-dots) { margin-bottom: 22px; }
+.card-media .carousel-track { border-radius: var(--radius) var(--radius) 0 0; }
+.modal-carousel { margin-bottom: 22px; }
+.carousel-track {
+  display: flex;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.carousel-track::-webkit-scrollbar { display: none; }
+.carousel-slide { flex: 0 0 100%; height: 100%; overflow: hidden; scroll-snap-align: start; scroll-snap-stop: always; }
+.carousel-slide img { width: 100%; height: 100%; object-fit: cover; display: block; -webkit-user-drag: none; user-select: none; }
+
+.carousel-counter {
+  position: absolute; top: 10px; right: 10px;
+  background: rgba(20,17,16,0.6);
+  color: white;
+  font-size: 0.68rem; font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 999px;
+  pointer-events: none;
+}
+.carousel-dots {
+  position: absolute; top: 100%; left: 0; right: 0;
+  height: 22px;
+  display: flex; align-items: center; justify-content: center; gap: 5px;
+  pointer-events: none;
+}
+.carousel-dots .dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--sand);
+  transition: background var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+}
+.carousel-dots .dot.active { background: var(--terracotta); transform: scale(1.25); }
+
+.carousel-arrow {
+  position: absolute; top: 50%;
+  transform: translateY(-50%);
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.92);
+  color: var(--ink);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  transition: opacity var(--dur-fast) var(--ease-out);
+}
+.carousel-arrow.prev { left: 8px; }
+.carousel-arrow.prev .icon { transform: rotate(180deg); }
+.carousel-arrow.next { right: 8px; }
+.carousel-arrow[hidden] { display: none; }
+.carousel:hover .carousel-arrow, .carousel-arrow:focus-visible { opacity: 1; }
+@media (hover: none) { .carousel-arrow { display: none; } }
+
+.modal-carousel { aspect-ratio: 3/4; height: auto; margin-top: -36px; background: var(--blush); }
+.modal-carousel .carousel-counter { right: auto; left: 12px; top: 12px; }
+.modal-carousel .carousel-arrow { width: 38px; height: 38px; opacity: 1; }

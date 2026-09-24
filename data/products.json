@@ -3,11 +3,11 @@
     "id": "disfraz-thor-nino",
     "title": "Disfraz de Thor con capa roja para niño",
     "category": "ropa_nino",
-    "size": "8",
+    "size": "12-14",
     "brand": null,
     "description": "Disfraz completo de Thor con peto negro y plateado, cinturón café con hebillas, capa roja larga y pantalón a juego. Ideal para fiestas temáticas o Halloween.",
     "condition": "Usado - buen estado",
-    "price": 75,
+    "price": 120,
     "images": [
       "promo-disfraz-thor-nino.jpg",
       "IMG_0052.jpg"
@@ -32,12 +32,13 @@
     "id": "polo-rayas-azul-blanco-cuello-rojo-nino",
     "title": "Polo de rayas azul marino y blanco con cuello rojo",
     "category": "ropa_nino",
-    "size": "Niño 6-8 años",
+    "size": "10-12",
     "brand": null,
     "description": "Polo de manga larga a rayas azul marino y blanco, con cuello y detalle en rojo y bordado de jinete en el pecho. Prenda de algodón cómoda para uso diario.",
     "condition": "Usado - buen estado",
-    "price": 120,
+    "price": 40,
     "images": [
+      "promo-polo-rayas-azul-blanco-cuello-rojo-nino.jpg",
       "IMG_1827.jpg"
     ]
   },
@@ -99,12 +100,13 @@
     "id": "sudadera-caritas-amarillo-gris",
     "title": "Sudadera gris con estampado de caritas amarillas estilo grafiti",
     "category": "ropa_nino",
-    "size": "8-10",
+    "size": "10",
     "brand": null,
     "description": "Sudadera gris con estampado llamativo de caritas sonrientes en amarillo y negro estilo grafiti, manga larga y cuello redondo.",
     "condition": "Usado - buen estado",
-    "price": 170,
+    "price": 40,
     "images": [
+      "promo-sudadera-caritas-amarillo-gris.jpg",
       "IMG_1836.jpg"
     ]
   },
@@ -127,12 +129,13 @@
     "id": "playera-hang-ten-negra-nino",
     "title": "Playera negra manga larga Hang Ten Surfing",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "10",
     "brand": "Hang Ten",
     "description": "Playera negra de manga larga con logo de huellas 'Hang Ten Surfing Co.' en el pecho, tela suave de algodón.",
     "condition": "Usado - buen estado",
-    "price": 100,
+    "price": 30,
     "images": [
+      "promo-playera-hang-ten-negra-nino.jpg",
       "IMG_1839.jpg"
     ]
   },
@@ -262,12 +265,13 @@
     "id": "chaleco-gris-puntos-nino",
     "title": "Chaleco formal gris con estampado de puntos",
     "category": "ropa_nino",
-    "size": "Niño 6-8 años",
+    "size": "XS",
     "brand": null,
     "description": "Chaleco formal gris con estampado de puntos, ideal para eventos especiales o para usar con traje.",
     "condition": "Usado - buen estado",
-    "price": 110,
+    "price": 70,
     "images": [
+      "promo-chaleco-gris-puntos-nino.jpg",
       "IMG_1851.jpg"
     ]
   },
@@ -275,11 +279,11 @@
     "id": "playera-game-negra-nino",
     "title": "Playera negra estampado 'Game' control de videojuegos",
     "category": "ropa_nino",
-    "size": "8-10",
+    "size": "CH",
     "brand": null,
     "description": "Playera negra con estampado verde de un control de videojuegos y texto 'Game', ideal para los amantes de los videojuegos.",
     "condition": "Usado - buen estado",
-    "price": 25,
+    "price": 50,
     "images": [
       "promo-playera-game-negra-nino.jpg",
       "IMG_1852.jpg"
@@ -289,12 +293,13 @@
     "id": "playera-gris-safari-nino",
     "title": "Playera gris estampado safari con palmeras y animales",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "10",
     "brand": null,
     "description": "Playera gris con estampado de palmeras, jirafas y elefantes estilo safari, manga corta.",
     "condition": "Usado - buen estado",
-    "price": 100,
+    "price": 40,
     "images": [
+      "promo-playera-gris-safari-nino.jpg",
       "IMG_1853.jpg"
     ]
   },
@@ -341,11 +346,11 @@
     "id": "short-camuflaje-azul-nino",
     "title": "Short deportivo camuflado azul marino",
     "category": "ropa_nino",
-    "size": "Niño talla 10",
+    "size": "S",
     "brand": null,
     "description": "Short deportivo estampado camuflaje en tonos azul marino y negro, con cordón amarillo y bolsillos laterales.",
     "condition": "Usado - buen estado",
-    "price": 35,
+    "price": 50,
     "images": [
       "promo-short-camuflaje-azul-nino.jpg",
       "IMG_1859.jpg"
@@ -359,8 +364,9 @@
     "brand": "Mainstays",
     "description": "Organizador de plástico con múltiples divisiones y asa, ideal para guardar accesorios, tornillos o material de manualidades.",
     "condition": "Usado - buen estado",
-    "price": 100,
+    "price": 30,
     "images": [
+      "promo-organizador-plastico-divisiones.jpg",
       "IMG_1862.jpg"
     ]
   },
@@ -448,11 +454,11 @@
     "id": "kimono-floral-negro-dama",
     "title": "Kimono/blusa floral negra con flores blancas y amarillas",
     "category": "ropa_dama",
-    "size": "CH",
+    "size": "XS",
     "brand": null,
     "description": "Prenda floral negra con estampado de flores blancas y amarillas, manga corta, ideal como kimono abierto o blusa cruzada.",
     "condition": "Usado - buen estado",
-    "price": 30,
+    "price": 85,
     "images": [
       "promo-kimono-floral-negro-dama.jpg",
       "IMG_1872.jpg",
@@ -463,12 +469,13 @@
     "id": "top-cebra-manga-larga-dama",
     "title": "Top de malla estampado cebra manga larga",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "XS",
     "brand": null,
     "description": "Top ajustado de manga larga con estampado de cebra en blanco y negro, cuello alto, tela tipo malla semitransparente.",
     "condition": "Usado - buen estado",
-    "price": 120,
+    "price": 30,
     "images": [
+      "promo-top-cebra-manga-larga-dama.jpg",
       "IMG_1873.jpg"
     ]
   },
@@ -489,12 +496,13 @@
     "id": "blusa-animal-print-leopardo-dama",
     "title": "Blusa animal print leopardo manga 3/4",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "32",
     "brand": null,
     "description": "Blusa fresca con estampado animal print de leopardo, manga 3/4, botones al frente, ideal para looks casuales o de oficina.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 70,
     "images": [
+      "promo-blusa-animal-print-leopardo-dama.jpg",
       "IMG_1875.jpg"
     ]
   },
@@ -502,12 +510,13 @@
     "id": "playera-disney-gris-nino",
     "title": "Playera gris Disney 'By Your Side' Donald, Mickey y Goofy",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "G",
     "brand": "Disney",
     "description": "Playera gris con estampado de Donald, Mickey y Goofy y frase 'Celebration of Wonder - By Your Side', con capa interior blanca simulando camisa.",
     "condition": "Usado - buen estado",
-    "price": 110,
+    "price": 40,
     "images": [
+      "promo-playera-disney-gris-nino.jpg",
       "IMG_1876.jpg",
       "IMG_1877.jpg"
     ]
@@ -516,12 +525,13 @@
     "id": "vestido-sueter-mickey-la-nina",
     "title": "Vestido sudadera con capucha Mickey Mouse 'Los Angeles'",
     "category": "ropa_dama",
-    "size": "Consultar talla",
+    "size": "CH",
     "brand": "Disney",
     "description": "Vestido tipo sudadera de rayas negras y blancas con capucha y estampado de Mickey Mouse 'Los Angeles', manga larga.",
     "condition": "Usado - buen estado",
-    "price": 180,
+    "price": 100,
     "images": [
+      "promo-vestido-sueter-mickey-la-nina.jpg",
       "IMG_1878.jpg"
     ]
   },
@@ -529,12 +539,13 @@
     "id": "vestido-rosa-mexicano-mangas-abullonadas",
     "title": "Vestido rosa mexicano con mangas abullonadas",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "CH",
     "brand": null,
     "description": "Vestido en rosa mexicano con mangas cortas abullonadas y cierre trasero, corte recto, ideal para ocasiones especiales.",
     "condition": "Usado - buen estado",
-    "price": 220,
+    "price": 40,
     "images": [
+      "promo-vestido-rosa-mexicano-mangas-abullonadas.jpg",
       "IMG_1879.jpg"
     ]
   },
@@ -649,12 +660,13 @@
     "id": "pijama-mameluco-rojo-renos",
     "title": "Pijama mameluco rojo estampado renos navideños",
     "category": "ropa_nino",
-    "size": "Niño/a 8-10 años",
+    "size": "M",
     "brand": null,
     "description": "Pijama tipo mameluco con capucha, color rojo con estampado de renos navideños, cierre frontal, ideal para la época decembrina.",
     "condition": "Usado - buen estado",
-    "price": 150,
+    "price": 100,
     "images": [
+      "promo-pijama-mameluco-rojo-renos.jpg",
       "IMG_1888.jpg"
     ]
   },
@@ -690,12 +702,13 @@
     "id": "camisa-azul-estampado-abstracto-caballero",
     "title": "Camisa azul marino estampado abstracto manga corta",
     "category": "ropa_caballero",
-    "size": "Caballero M",
+    "size": "M",
     "brand": null,
     "description": "Camisa azul marino de manga corta con estampado abstracto en blanco, azul y rojo, ideal para un look casual de verano.",
     "condition": "Usado - buen estado",
-    "price": 140,
+    "price": 160,
     "images": [
+      "promo-camisa-azul-estampado-abstracto-caballero.jpg",
       "IMG_1891.jpg"
     ]
   },
@@ -716,12 +729,13 @@
     "id": "camisa-rayas-varsity-nino",
     "title": "Camisa de rayas azul con parche varsity 'T 3'",
     "category": "ropa_nino",
-    "size": "Niño talla 12",
+    "size": "10-12",
     "brand": null,
     "description": "Camisa de rayas finas azul y blanco con parche estilo varsity 'T 3' en el pecho, manga larga, botones al frente.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 95,
     "images": [
+      "promo-camisa-rayas-varsity-nino.jpg",
       "IMG_1893.jpg"
     ]
   },
@@ -742,12 +756,13 @@
     "id": "camisa-azul-claro-gap-nino",
     "title": "Camisa azul claro de vestir Gap",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "10",
     "brand": "Gap",
     "description": "Camisa azul claro de manga larga marca Gap, con bolsillo frontal, ideal para uso escolar o casual.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 95,
     "images": [
+      "promo-camisa-azul-claro-gap-nino.jpg",
       "IMG_1895.jpg"
     ]
   },
@@ -919,11 +934,11 @@
     "id": "camisa-blanca-estampado-polo-club-caballero",
     "title": "Camisa blanca estampado geométrico Polo Club",
     "category": "ropa_caballero",
-    "size": "CH",
+    "size": "32",
     "brand": "Polo Club",
     "description": "Camisa blanca de manga corta con estampado geométrico en azul marino, marca Polo Club, ideal para look casual.",
     "condition": "Usado - buen estado",
-    "price": 95,
+    "price": 100,
     "images": [
       "promo-camisa-blanca-estampado-polo-club-caballero.jpg",
       "IMG_1909.jpg"
@@ -933,12 +948,13 @@
     "id": "camisa-cuadros-rojo-blanco-polo-club-caballero",
     "title": "Camisa de cuadros rojo y blanco Polo Club",
     "category": "ropa_caballero",
-    "size": "Caballero M",
+    "size": "CH",
     "brand": "Polo Club",
     "description": "Camisa de cuadros pequeños rojo y blanco (vichy), manga corta, marca Polo Club, ideal para look casual de verano.",
     "condition": "Usado - buen estado",
-    "price": 160,
+    "price": 100,
     "images": [
+      "promo-camisa-cuadros-rojo-blanco-polo-club-caballero.jpg",
       "IMG_1910.jpg"
     ]
   },
@@ -961,12 +977,13 @@
     "id": "blusa-verde-mangas-abullonadas-shein-dama",
     "title": "Blusa verde con mangas abullonadas SHEIN",
     "category": "ropa_dama",
-    "size": "Dama M",
+    "size": "XS",
     "brand": "SHEIN",
     "description": "Blusa verde bosque de manga larga abullonada, con detalle calado en el pecho, marca SHEIN.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 65,
     "images": [
+      "promo-blusa-verde-mangas-abullonadas-shein-dama.jpg",
       "IMG_1913.jpg"
     ]
   },
@@ -974,12 +991,13 @@
     "id": "vestido-rayas-blanco-negro-dama",
     "title": "Vestido de rayas blanco y negro con escote en V",
     "category": "ropa_dama",
-    "size": "Dama S",
+    "size": "CH",
     "brand": null,
     "description": "Vestido tipo playera de rayas blanco y negro, escote en V, manga corta, corte entallado.",
-    "condition": "Usado - buen estado",
-    "price": 180,
+    "condition": "Nuevo con etiqueta",
+    "price": 90,
     "images": [
+      "promo-vestido-rayas-blanco-negro-dama.jpg",
       "IMG_1914.jpg"
     ]
   },
@@ -987,12 +1005,13 @@
     "id": "vestido-fucsia-espalda-descubierta-dama",
     "title": "Vestido fucsia con espalda descubierta y amarre",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "XS",
     "brand": null,
     "description": "Vestido corto en color fucsia con abertura y amarre en la espalda, manga corta, ideal para salidas de noche.",
     "condition": "Usado - buen estado",
-    "price": 180,
+    "price": 90,
     "images": [
+      "promo-vestido-fucsia-espalda-descubierta-dama.jpg",
       "IMG_1915.jpg"
     ]
   },
@@ -1000,12 +1019,13 @@
     "id": "top-lila-bralette-dama",
     "title": "Top bralette lila de canalé",
     "category": "ropa_dama",
-    "size": "Dama S/M",
+    "size": "CH",
     "brand": null,
     "description": "Top corto tipo bralette en color lila, tela de canalé, tirantes anchos, ideal para combinar con jeans o falda.",
     "condition": "Usado - buen estado",
-    "price": 100,
+    "price": 20,
     "images": [
+      "promo-top-lila-bralette-dama.jpg",
       "IMG_1916.jpg"
     ]
   },
@@ -1026,12 +1046,13 @@
     "id": "vestido-gris-basico-dama",
     "title": "Vestido gris básico manga corta",
     "category": "ropa_dama",
-    "size": "Dama XS/S",
+    "size": "CH",
     "brand": null,
     "description": "Vestido corto gris jaspeado, manga corta, cuello redondo, sencillo y versátil para el día a día.",
     "condition": "Usado - buen estado",
-    "price": 180,
+    "price": 70,
     "images": [
+      "promo-vestido-gris-basico-dama.jpg",
       "IMG_1919.jpg"
     ]
   },
@@ -1066,12 +1087,13 @@
     "id": "camisa-cuadros-azul-beige-nino",
     "title": "Camisa de cuadros azul marino y beige",
     "category": "ropa_nino",
-    "size": "Niño 8-10 años",
+    "size": "8-10",
     "brand": null,
     "description": "Camisa de manga corta a cuadros grandes en azul marino, gris y beige, con bolsillo al frente.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 70,
     "images": [
+      "promo-camisa-cuadros-azul-beige-nino.jpg",
       "IMG_1923.jpg"
     ]
   },
@@ -1132,11 +1154,11 @@
     "id": "short-azul-marino-cordon-caballero",
     "title": "Short azul marino con cordón ajustable",
     "category": "ropa_caballero",
-    "size": "12",
+    "size": "CH",
     "brand": null,
     "description": "Short casual azul marino con cordón blanco ajustable en la cintura y bolsillos laterales.",
     "condition": "Usado - buen estado",
-    "price": 65,
+    "price": 45,
     "images": [
       "promo-short-azul-marino-cordon-caballero.jpg",
       "IMG_1930.jpg"
@@ -1199,12 +1221,13 @@
     "id": "bikini-floral-naranja-dama",
     "title": "Bikini floral naranja y multicolor",
     "category": "ropa_dama",
-    "size": "Dama S/M (copa B)",
+    "size": "CH",
     "brand": null,
     "description": "Bikini de dos piezas con estampado floral en tonos naranja, amarillo y morado, top con varilla y ajuste trasero.",
     "condition": "Usado - buen estado",
-    "price": 150,
+    "price": 60,
     "images": [
+      "promo-bikini-floral-naranja-dama.jpg",
       "IMG_1935.jpg"
     ]
   },
@@ -1257,8 +1280,9 @@
     "brand": null,
     "description": "Peluche pequeño y redondo en color naranja con orejas y detalle verde, estilo kawaii, con etiqueta de precio original.",
     "condition": "Nuevo con etiqueta",
-    "price": 90,
+    "price": 35,
     "images": [
+      "promo-peluche-naranja-redondo-animalito.jpg",
       "IMG_1941.jpg"
     ]
   },
@@ -1270,8 +1294,9 @@
     "brand": null,
     "description": "Juguete tipo Poké Ball que se abre y trae discos intercambiables de tipos de ataque, ideal para fans de Pokémon.",
     "condition": "Usado - buen estado",
-    "price": 90,
+    "price": 50,
     "images": [
+      "promo-juguete-pokebola-pokemon.jpg",
       "IMG_1942.jpg",
       "IMG_1943.jpg"
     ]

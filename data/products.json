@@ -384,34 +384,6 @@
     ]
   },
   {
-    "id": "cortina-blanca-encaje-flores",
-    "title": "Cortina blanca semitransparente con bordado de flores",
-    "category": "hogar",
-    "size": "Única",
-    "brand": null,
-    "description": "Cortina en tono hueso semitransparente con bordado de flores, ideal para dar un toque elegante a cualquier habitación.",
-    "condition": "Usado - buen estado",
-    "price": 150,
-    "images": [
-      "IMG_1864.jpg",
-      "IMG_1865.jpg"
-    ]
-  },
-  {
-    "id": "tela-gris-lisa",
-    "title": "Cortina o tela gris lisa tipo jersey",
-    "category": "hogar",
-    "size": "Única",
-    "brand": null,
-    "description": "Pieza de tela/cortina en color gris liso, tejido tipo jersey, versátil para decoración del hogar.",
-    "condition": "Usado - buen estado",
-    "price": 120,
-    "images": [
-      "IMG_1866.jpg",
-      "IMG_1867.jpg"
-    ]
-  },
-  {
     "id": "jeans-azul-acampanado-nina",
     "title": "Jeans azul oscuro acampanado",
     "category": "ropa_dama",
@@ -1475,6 +1447,23 @@
     "price": 240,
     "images": [
       "conjunto-tweed-blanco-negro.jpg"
+    ]
+  },
+  {
+    "id": "juego-cortinas-3-piezas",
+    "title": "Juego de cortinas (incluye 3 piezas)",
+    "category": "hogar",
+    "size": "Única",
+    "brand": null,
+    "description": "Set de 3 cortinas: dos lisas en gris tipo jersey y una semitransparente en tono hueso con bordado de flores. Se venden juntas.",
+    "condition": "Usado - buen estado",
+    "price": 250,
+    "images": [
+      "promo-juego-cortinas.jpg",
+      "IMG_1864.jpg",
+      "IMG_1865.jpg",
+      "IMG_1866.jpg",
+      "IMG_1867.jpg"
     ]
   }
 ]

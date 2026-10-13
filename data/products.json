@@ -7,7 +7,7 @@
     "brand": null,
     "description": "Disfraz completo de Thor con peto negro y plateado, cinturón café con hebillas, capa roja larga y pantalón a juego. Ideal para fiestas temáticas o Halloween.",
     "condition": "Usado - buen estado",
-    "price": 120,
+    "price": 80,
     "images": [
       "IMG_0052.jpg"
     ]
@@ -20,7 +20,7 @@
     "brand": null,
     "description": "Lote variado de figuras de plástico: dinosaurios, personajes y animalitos de distintos tamaños y colores, ideal para jugar y coleccionar.",
     "condition": "Usado - buen estado",
-    "price": 250,
+    "price": 150,
     "images": [
       "IMG_0053.jpg",
       "IMG_0054.jpg",
@@ -35,7 +35,7 @@
     "brand": null,
     "description": "Polo de manga larga a rayas azul marino y blanco, con cuello y detalle en rojo y bordado de jinete en el pecho. Prenda de algodón cómoda para uso diario.",
     "condition": "Usado - buen estado",
-    "price": 40,
+    "price": 80,
     "images": [
       "IMG_1827.jpg"
     ]
@@ -61,7 +61,7 @@
     "brand": "Naruto",
     "description": "Playera gris de manga corta con estampado del personaje Naruto, ideal para fans del anime.",
     "condition": "Usado - buen estado",
-    "price": 25,
+    "price": 40,
     "images": [
       "IMG_1830.jpg"
     ]
@@ -70,11 +70,11 @@
     "id": "jeans-azul-skinny-nino",
     "title": "Jeans azul skinny para niño",
     "category": "ropa_nino",
-    "size": "Niño 6-7 años",
+    "size": "9-10",
     "brand": null,
     "description": "Pantalón de mezclilla azul corte skinny, con desgaste ligero en las rodillas, cómodo y versátil para el día a día.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 80,
     "images": [
       "IMG_1831.jpg"
     ]
@@ -87,7 +87,7 @@
     "brand": null,
     "description": "Pantalón de mezclilla negro corte recto para caballero, con bolsillos frontales y traseros, ideal para uso casual.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1835.jpg"
     ]
@@ -100,7 +100,7 @@
     "brand": null,
     "description": "Sudadera gris con estampado llamativo de caritas sonrientes en amarillo y negro estilo grafiti, manga larga y cuello redondo.",
     "condition": "Usado - buen estado",
-    "price": 40,
+    "price": 80,
     "images": [
       "IMG_1836.jpg"
     ]
@@ -113,7 +113,7 @@
     "brand": null,
     "description": "Pantalón de mezclilla en color caqui, corte recto, con bolsillos funcionales, ideal para uso escolar o casual.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1837.jpg",
       "IMG_1838.jpg"
@@ -127,7 +127,7 @@
     "brand": "Hang Ten",
     "description": "Playera negra de manga larga con logo de huellas 'Hang Ten Surfing Co.' en el pecho, tela suave de algodón.",
     "condition": "Usado - buen estado",
-    "price": 30,
+    "price": 80,
     "images": [
       "IMG_1839.jpg"
     ]
@@ -140,7 +140,7 @@
     "brand": null,
     "description": "Pantalón de mezclilla en color verde olivo, corte entallado, cómodo y a la moda para el día a día.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 80,
     "images": [
       "IMG_1841.jpg"
     ]
@@ -153,7 +153,7 @@
     "brand": null,
     "description": "Pantalón de mezclilla azul claro corte recto, con bolsillos delanteros y traseros, prenda versátil de uso diario.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 80,
     "images": [
       "IMG_1842.jpg"
     ]
@@ -179,7 +179,7 @@
     "brand": null,
     "description": "Polo deportivo en bloques de color azul marino, rojo y azul, con cuello y bolsillo en contraste, cierre tipo zipper en el cuello.",
     "condition": "Usado - buen estado",
-    "price": 80,
+    "price": 100,
     "images": [
       "IMG_1844.jpg"
     ]
@@ -192,7 +192,7 @@
     "brand": "American Eagle Outfitters",
     "description": "Pantalón de mezclilla azul oscuro marca American Eagle, corte skinny, tiro alto, en buen estado.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 150,
     "images": [
       "IMG_1845.jpg"
     ]
@@ -205,7 +205,7 @@
     "brand": null,
     "description": "Camisa blanca formal de manga larga con bolsillo frontal, ideal para eventos o uso escolar formal.",
     "condition": "Usado - buen estado",
-    "price": 20,
+    "price": 50,
     "images": [
       "IMG_1846.jpg"
     ]
@@ -218,7 +218,7 @@
     "brand": null,
     "description": "Pantalón rosa mexicano tipo acampanado, tiro alto, tela stretch cómoda, ideal para look casual o de fiesta.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1848.jpg"
     ]
@@ -231,7 +231,7 @@
     "brand": null,
     "description": "Playera azul marino tipo henley con pequeño logo bordado de estrella roja en el pecho, cuello con botones.",
     "condition": "Usado - buen estado",
-    "price": 75,
+    "price": 80,
     "images": [
       "IMG_1849.jpg"
     ]
@@ -244,7 +244,7 @@
     "brand": null,
     "description": "Pantalón azul rey de tela satinada con brillo, corte recto, ideal para un look de fiesta.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1850.jpg"
     ]
@@ -283,7 +283,7 @@
     "brand": null,
     "description": "Playera gris con estampado de palmeras, jirafas y elefantes estilo safari, manga corta.",
     "condition": "Usado - buen estado",
-    "price": 40,
+    "price": 60,
     "images": [
       "IMG_1853.jpg"
     ]
@@ -296,7 +296,7 @@
     "brand": null,
     "description": "Pantalón turquesa acampanado, tiro alto con pinzas frontales, tela fluida ideal para looks elegantes o casuales.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1854.jpg"
     ]
@@ -309,7 +309,7 @@
     "brand": null,
     "description": "Jumpsuit elegante en color verde esmeralda con top de tirantes y olán en el frente, pierna ancha, ideal para eventos.",
     "condition": "Usado - buen estado",
-    "price": 250,
+    "price": 100,
     "images": [
       "IMG_1857.jpg"
     ]
@@ -322,7 +322,7 @@
     "brand": "American Eagle Outfitters",
     "description": "Jeans azul oscuro con rasgados a la moda en ambas piernas, marca American Eagle, corte entallado.",
     "condition": "Usado - con detalle",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1858.jpg"
     ]
@@ -361,7 +361,7 @@
     "brand": "Star Wars",
     "description": "Bolsa tote de felpa suave con diseño de Baby Yoda (Grogu), ideal para niños fans de Star Wars.",
     "condition": "Usado - buen estado",
-    "price": 120,
+    "price": 40,
     "images": [
       "IMG_1863.jpg"
     ]
@@ -374,7 +374,7 @@
     "brand": null,
     "description": "Pantalón de mezclilla azul oscuro corte acampanado, tiro alto, a la moda.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1868.jpg"
     ]
@@ -387,7 +387,7 @@
     "brand": null,
     "description": "Pantalón negro de tela fluida con detalle envolvente en la cintura, corte recto, elegante y cómodo.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1869.jpg"
     ]
@@ -400,18 +400,18 @@
     "brand": null,
     "description": "Leggings negros de tiro alto con detalle fruncido en la cintura, tela stretch cómoda para uso diario o deportivo.",
     "condition": "Usado - buen estado",
-    "price": 140,
+    "price": 100,
     "images": [
       "IMG_1870.jpg"
     ]
   },
   {
     "id": "kimono-floral-negro-dama",
-    "title": "Kimono/blusa floral negra con flores blancas y amarillas",
+    "title": "Vestido floral negro con flores blancas y amarillas",
     "category": "ropa_dama",
     "size": "XS",
     "brand": null,
-    "description": "Prenda floral negra con estampado de flores blancas y amarillas, manga corta, ideal como kimono abierto o blusa cruzada.",
+    "description": "Vestido floral negro con estampado de flores blancas y amarillas, manga corta y escote cruzado.",
     "condition": "Usado - buen estado",
     "price": 85,
     "images": [
@@ -427,7 +427,7 @@
     "brand": null,
     "description": "Top ajustado de manga larga con estampado de cebra en blanco y negro, cuello alto, tela tipo malla semitransparente.",
     "condition": "Usado - buen estado",
-    "price": 30,
+    "price": 100,
     "images": [
       "IMG_1873.jpg"
     ]
@@ -440,7 +440,7 @@
     "brand": null,
     "description": "Pantalón de mezclilla azul oscuro corte recto/bota, cómodo para uso diario.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1874.jpg"
     ]
@@ -493,7 +493,7 @@
     "brand": null,
     "description": "Vestido en rosa mexicano con mangas cortas abullonadas y cierre trasero, corte recto, ideal para ocasiones especiales.",
     "condition": "Usado - buen estado",
-    "price": 40,
+    "price": 100,
     "images": [
       "IMG_1879.jpg"
     ]
@@ -506,20 +506,20 @@
     "brand": null,
     "description": "Blusa blanca fresca con olán en el escote y manga corta, estilo romántico ideal para primavera-verano.",
     "condition": "Usado - buen estado",
-    "price": 99,
+    "price": 100,
     "images": [
       "IMG_1880.jpg"
     ]
   },
   {
     "id": "playera-llama-fortnite-nino",
-    "title": "Playera negra manga larga estampado llama estilo videojuego",
+    "title": "Top de pijama negro manga larga con estampado de llama estilo videojuego",
     "category": "ropa_nino",
     "size": "12-14",
     "brand": null,
-    "description": "Playera negra de manga larga con estampado de llama/alpaca colorida sobre fondo a cuadros, estilo videojuego.",
+    "description": "Top de pijama negro de manga larga con estampado de llama estilo videojuego, tela suave y cómoda.",
     "condition": "Usado - buen estado",
-    "price": 40,
+    "price": 50,
     "images": [
       "IMG_1881.jpg"
     ]
@@ -532,7 +532,7 @@
     "brand": null,
     "description": "Pantalón de mezclilla blanco corte skinny, ideal para combinar con cualquier blusa o playera.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1882.jpg"
     ]
@@ -545,7 +545,7 @@
     "brand": null,
     "description": "Vestido corto de tirantes con estampado floral tropical en tonos verde, naranja y mostaza, escote en V.",
     "condition": "Usado - buen estado",
-    "price": 200,
+    "price": 100,
     "images": [
       "IMG_1883.jpg"
     ]
@@ -558,7 +558,7 @@
     "brand": null,
     "description": "Pantalón de mezclilla azul medio con triple botón decorativo en la cintura, corte entallado.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1884.jpg"
     ]
@@ -571,7 +571,7 @@
     "brand": null,
     "description": "Vestido tipo camisero envolvente con estampado geométrico en verde azulado, mostaza, negro y beige, manga larga, con cinturón para anudar.",
     "condition": "Usado - buen estado",
-    "price": 65,
+    "price": 120,
     "images": [
       "IMG_1885.jpg"
     ]
@@ -584,7 +584,7 @@
     "brand": null,
     "description": "Pantalón de vestir azul marino con pinzas frontales, corte clásico, ideal para look formal o de oficina.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1886.jpg"
     ]
@@ -597,7 +597,7 @@
     "brand": "Levi's",
     "description": "Jeans clásicos marca Levi's en azul oscuro, corte recto, en buen estado.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1887.jpg"
     ]
@@ -623,7 +623,7 @@
     "brand": null,
     "description": "Leggings a rayas verticales blanco y negro, cintura elástica, cómodos y versátiles.",
     "condition": "Usado - buen estado",
-    "price": 45,
+    "price": 100,
     "images": [
       "IMG_1889.jpg"
     ]
@@ -636,7 +636,7 @@
     "brand": null,
     "description": "Playera blanca con estampado diagonal y bolsillo estampado camuflaje en el pecho, manga corta.",
     "condition": "Usado - buen estado",
-    "price": 25,
+    "price": 50,
     "images": [
       "IMG_1890.jpg"
     ]
@@ -649,7 +649,7 @@
     "brand": null,
     "description": "Camisa azul marino de manga corta con estampado abstracto en blanco, azul y rojo, ideal para un look casual de verano.",
     "condition": "Usado - buen estado",
-    "price": 160,
+    "price": 100,
     "images": [
       "IMG_1891.jpg"
     ]
@@ -662,7 +662,7 @@
     "brand": null,
     "description": "Pantalón de gabardina en verde olivo, corte recto, con bolsillos laterales, ideal para uso casual o semi-formal.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1892.jpg"
     ]
@@ -675,7 +675,7 @@
     "brand": null,
     "description": "Camisa de rayas finas azul y blanco con parche estilo varsity 'T 3' en el pecho, manga larga, botones al frente.",
     "condition": "Usado - buen estado",
-    "price": 95,
+    "price": 100,
     "images": [
       "IMG_1893.jpg"
     ]
@@ -688,7 +688,7 @@
     "brand": null,
     "description": "Falda corta en color beige, tela ligera, con etiqueta de precio original aún puesta.",
     "condition": "Nuevo con etiqueta",
-    "price": 130,
+    "price": 100,
     "images": [
       "IMG_1894.jpg"
     ]
@@ -704,19 +704,6 @@
     "price": 95,
     "images": [
       "IMG_1895.jpg"
-    ]
-  },
-  {
-    "id": "body-negro-manga-larga-escote-dama",
-    "title": "Body negro de manga larga con aberturas laterales",
-    "category": "ropa_dama",
-    "size": "Dama S/M",
-    "brand": null,
-    "description": "Body ajustado de manga larga en negro con cortes/aberturas laterales, cuello alto, ideal para look nocturno.",
-    "condition": "Usado - buen estado",
-    "price": 130,
-    "images": [
-      "IMG_1897.jpg"
     ]
   },
   {
@@ -740,7 +727,7 @@
     "brand": null,
     "description": "Pantalón en tono fucsia brillante, tela satinada, pierna ancha con bolsillo trasero, ideal para look de fiesta.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1899.jpg"
     ]
@@ -753,7 +740,7 @@
     "brand": null,
     "description": "Blusa blanca semitransparente con olán en el escote y amarre frontal, manga larga con puño ajustable.",
     "condition": "Usado - buen estado",
-    "price": 99,
+    "price": 80,
     "images": [
       "IMG_1900.jpg"
     ]
@@ -766,22 +753,9 @@
     "brand": null,
     "description": "Camisa de rayas verticales azul y blanco, manga corta con bolsillo al frente, ideal para uso casual o escolar.",
     "condition": "Usado - buen estado",
-    "price": 35,
+    "price": 80,
     "images": [
       "IMG_1901.jpg"
-    ]
-  },
-  {
-    "id": "body-crema-cutout-dama",
-    "title": "Body crema con aberturas y cuello alto",
-    "category": "ropa_dama",
-    "size": "Dama S/M",
-    "brand": null,
-    "description": "Body en color crema con aberturas laterales y en el frente, cuello alto, manga larga, ideal para un look moderno.",
-    "condition": "Usado - buen estado",
-    "price": 130,
-    "images": [
-      "IMG_1902.jpg"
     ]
   },
   {
@@ -792,22 +766,9 @@
     "brand": "Wilson",
     "description": "Pantalón deportivo tipo jogger en negro, marca Wilson, cintura elástica con cordón, puños ajustados en el tobillo.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 80,
     "images": [
       "IMG_1903.jpg"
-    ]
-  },
-  {
-    "id": "vestido-leopardo-sin-mangas-dama",
-    "title": "Vestido animal print leopardo sin mangas",
-    "category": "ropa_dama",
-    "size": "Dama S/M",
-    "brand": null,
-    "description": "Vestido entallado sin mangas con estampado animal print de leopardo, ideal para look casual o de noche.",
-    "condition": "Usado - buen estado",
-    "price": 180,
-    "images": [
-      "IMG_1904.jpg"
     ]
   },
   {
@@ -818,7 +779,7 @@
     "brand": null,
     "description": "Blusa color vino con escote cruzado y botones decorativos al costado, manga larga, entallada.",
     "condition": "Usado - buen estado",
-    "price": 99,
+    "price": 100,
     "images": [
       "IMG_1905.jpg"
     ]
@@ -831,7 +792,7 @@
     "brand": null,
     "description": "Top corto en verde olivo con textura de flecos, tirantes finos, ideal para look de playa o fiesta.",
     "condition": "Usado - buen estado",
-    "price": 45,
+    "price": 80,
     "images": [
       "IMG_1906.jpg"
     ]
@@ -896,7 +857,7 @@
     "brand": null,
     "description": "Vestido largo elegante en satín turquesa, escote corazón con pedrería, abertura lateral, ideal para gala o XV años.",
     "condition": "Usado - buen estado",
-    "price": 250,
+    "price": 400,
     "images": [
       "IMG_1911.jpg",
       "IMG_1912.jpg"
@@ -910,7 +871,7 @@
     "brand": "SHEIN",
     "description": "Blusa verde bosque de manga larga abullonada, con detalle calado en el pecho, marca SHEIN.",
     "condition": "Usado - buen estado",
-    "price": 99,
+    "price": 100,
     "images": [
       "IMG_1913.jpg"
     ]
@@ -923,7 +884,7 @@
     "brand": null,
     "description": "Vestido tipo playera de rayas blanco y negro, escote en V, manga corta, corte entallado.",
     "condition": "Nuevo con etiqueta",
-    "price": 90,
+    "price": 100,
     "images": [
       "IMG_1914.jpg"
     ]
@@ -936,7 +897,7 @@
     "brand": null,
     "description": "Vestido corto en color fucsia con abertura y amarre en la espalda, manga corta, ideal para salidas de noche.",
     "condition": "Usado - buen estado",
-    "price": 90,
+    "price": 100,
     "images": [
       "IMG_1915.jpg"
     ]
@@ -949,34 +910,22 @@
     "brand": null,
     "description": "Top corto tipo bralette en color lila, tela de canalé, tirantes anchos, ideal para combinar con jeans o falda.",
     "condition": "Usado - buen estado",
-    "price": 20,
+    "price": 50,
     "images": [
       "IMG_1916.jpg"
     ]
   },
   {
     "id": "vestido-gris-amarre-frontal-dama",
-    "title": "Vestido gris con amarre tipo cordón al frente",
-    "category": "ropa_dama",
-    "size": "Dama S/M",
-    "brand": null,
-    "description": "Vestido gris jaspeado con detalle de amarre tipo cordón en el frente, manga corta, corte entallado.",
-    "condition": "Usado - buen estado",
-    "price": 180,
-    "images": [
-      "IMG_1917.jpg"
-    ]
-  },
-  {
-    "id": "vestido-gris-basico-dama",
-    "title": "Vestido gris básico manga corta",
+    "title": "Vestido gris con amarre al frente y manga corta",
     "category": "ropa_dama",
     "size": "CH",
     "brand": null,
-    "description": "Vestido corto gris jaspeado, manga corta, cuello redondo, sencillo y versátil para el día a día.",
+    "description": "Vestido gris de manga corta, con amarre tipo cordón al frente. Cómodo y versátil para el día a día.",
     "condition": "Usado - buen estado",
-    "price": 70,
+    "price": 100,
     "images": [
+      "IMG_1917.jpg",
       "IMG_1919.jpg"
     ]
   },
@@ -988,7 +937,7 @@
     "brand": null,
     "description": "Jumpsuit/mameluco de rayas azul claro y blanco, tirantes anchos y botón decorativo al frente, escote en V.",
     "condition": "Usado - buen estado",
-    "price": 220,
+    "price": 100,
     "images": [
       "IMG_1920.jpg",
       "IMG_1921.jpg"
@@ -1002,7 +951,7 @@
     "brand": null,
     "description": "Top corto blanco estilo corset con varillas visibles en la parte inferior, tirantes anchos, ideal para looks modernos.",
     "condition": "Usado - buen estado",
-    "price": 120,
+    "price": 80,
     "images": [
       "IMG_1922.jpg"
     ]
@@ -1015,7 +964,7 @@
     "brand": null,
     "description": "Camisa de manga corta a cuadros grandes en azul marino, gris y beige, con bolsillo al frente.",
     "condition": "Usado - buen estado",
-    "price": 70,
+    "price": 100,
     "images": [
       "IMG_1923.jpg"
     ]
@@ -1028,7 +977,7 @@
     "brand": null,
     "description": "Top negro sin mangas con recortes y espalda descubierta, tela acanalada, ideal para combinar con pantalón o falda.",
     "condition": "Usado - buen estado",
-    "price": 110,
+    "price": 100,
     "images": [
       "IMG_1924.jpg",
       "IMG_1925.jpg"
@@ -1042,7 +991,7 @@
     "brand": "Star Wars",
     "description": "Playera azul con estampado de Baby Yoda (Grogu) y frase 'May the Force Be With You', manga corta.",
     "condition": "Usado - buen estado",
-    "price": 120,
+    "price": 50,
     "images": [
       "IMG_1927.jpg"
     ]
@@ -1055,7 +1004,7 @@
     "brand": null,
     "description": "Camisa de cuadros vichy en vino y blanco con capucha, manga larga, bolsillo al frente.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 100,
     "images": [
       "IMG_1928.jpg"
     ]
@@ -1068,7 +1017,7 @@
     "brand": null,
     "description": "Suéter tejido azul marino con cuello alto y botones, manga larga, ideal para clima fresco.",
     "condition": "Usado - buen estado",
-    "price": 180,
+    "price": 100,
     "images": [
       "IMG_1929.jpg"
     ]
@@ -1081,7 +1030,7 @@
     "brand": null,
     "description": "Short casual azul marino con cordón blanco ajustable en la cintura y bolsillos laterales.",
     "condition": "Usado - buen estado",
-    "price": 45,
+    "price": 100,
     "images": [
       "IMG_1930.jpg"
     ]
@@ -1094,7 +1043,7 @@
     "brand": null,
     "description": "Jeans azul oscuro corte skinny, tiro alto, con detalles de pespunte dorado en los bolsillos.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1931.jpg"
     ]
@@ -1107,7 +1056,7 @@
     "brand": "American Eagle Outfitters",
     "description": "Jeans azul medio con rasgados grandes en ambas piernas, tiro alto, marca American Eagle.",
     "condition": "Usado - con detalle",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1932.jpg"
     ]
@@ -1120,7 +1069,7 @@
     "brand": null,
     "description": "Pantalón negro de vestir, corte recto, con bolsillos delanteros, ideal para look formal.",
     "condition": "Usado - buen estado",
-    "price": 199,
+    "price": 100,
     "images": [
       "IMG_1933.jpg"
     ]
@@ -1133,7 +1082,7 @@
     "brand": null,
     "description": "Bikini de dos piezas con estampado tropical de hojas verdes y detalles naranjas, top con amarres y bombacho con moño.",
     "condition": "Usado - buen estado",
-    "price": 60,
+    "price": 100,
     "images": [
       "IMG_1934.jpg"
     ]
@@ -1146,7 +1095,7 @@
     "brand": null,
     "description": "Bikini de dos piezas con estampado floral en tonos naranja, amarillo y morado, top con varilla y ajuste trasero.",
     "condition": "Usado - buen estado",
-    "price": 60,
+    "price": 100,
     "images": [
       "IMG_1935.jpg"
     ]
@@ -1159,7 +1108,7 @@
     "brand": null,
     "description": "Set de baño negro con detalle de dije dorado en forma de sol, incluye piezas superiores y parte inferior.",
     "condition": "Usado - buen estado",
-    "price": 160,
+    "price": 100,
     "images": [
       "IMG_1936.jpg"
     ]
@@ -1172,7 +1121,7 @@
     "brand": null,
     "description": "Set de juguetes de playa que incluye cubeta azul, pala roja, red y varios moldes de camarón, cangrejo y calavera pirata.",
     "condition": "Usado - buen estado",
-    "price": 200,
+    "price": 100,
     "images": [
       "IMG_1937.jpg",
       "IMG_1938.jpg",
@@ -1187,7 +1136,7 @@
     "brand": "Marvel Avengers",
     "description": "Peluche de Rocket Raccoon de Guardianes de la Galaxia, personaje de Avengers, suave y en buen estado.",
     "condition": "Usado - buen estado",
-    "price": 110,
+    "price": 100,
     "images": [
       "IMG_1940.jpg"
     ]
@@ -1200,7 +1149,7 @@
     "brand": null,
     "description": "Peluche pequeño y redondo en color naranja con orejas y detalle verde, estilo kawaii, con etiqueta de precio original.",
     "condition": "Nuevo con etiqueta",
-    "price": 35,
+    "price": 50,
     "images": [
       "IMG_1941.jpg"
     ]
@@ -1213,7 +1162,7 @@
     "brand": null,
     "description": "Juguete tipo Poké Ball que se abre y trae discos intercambiables de tipos de ataque, ideal para fans de Pokémon.",
     "condition": "Usado - buen estado",
-    "price": 50,
+    "price": 100,
     "images": [
       "IMG_1942.jpg",
       "IMG_1943.jpg"
@@ -1227,7 +1176,7 @@
     "brand": "Prinsel",
     "description": "Tina de baño para bebé en color rosa, marca Prinsel, con respaldo ergonómico antideslizante.",
     "condition": "Usado - buen estado",
-    "price": 180,
+    "price": 100,
     "images": [
       "IMG_1944.jpg",
       "IMG_1945.jpg"
@@ -1241,7 +1190,7 @@
     "brand": null,
     "description": "Par de cinturones tipo cartuchera en negro con detalles de remaches dorados simulando balas, estilo disfraz o moda urbana.",
     "condition": "Usado - buen estado",
-    "price": 100,
+    "price": 50,
     "images": [
       "IMG_1947.jpg"
     ]
@@ -1254,7 +1203,7 @@
     "brand": null,
     "description": "Playera deportiva de manga larga con protección UPF 50+, estampado de tiburón robot y mangas con diseño camuflado azul.",
     "condition": "Usado - buen estado",
-    "price": 70,
+    "price": 100,
     "images": [
       "IMG_1948.jpg"
     ]
@@ -1267,7 +1216,7 @@
     "brand": "Stranger Things",
     "description": "Playera roja con cuello negro tipo ringer, estampado de flamas y logo 'Stranger Things', talla M/M unisex.",
     "condition": "Usado - buen estado",
-    "price": 130,
+    "price": 50,
     "images": [
       "IMG_1949.jpg"
     ]
@@ -1280,7 +1229,7 @@
     "brand": "CAT",
     "description": "Camión bulldozer de juguete marca CAT con orugas móviles y pala frontal, con detalles de uso propios de un juguete jugado. Ideal para los fans de la construcción.",
     "condition": "Usado - buen estado",
-    "price": 280,
+    "price": 200,
     "images": [
       "cat-bulldozer-01.jpg",
       "cat-bulldozer-02.jpg",
@@ -1295,7 +1244,7 @@
     "brand": "JCB",
     "description": "Tractor retroexcavadora de juguete marca JCB con pala frontal y brazo trasero articulados, incluye figura de trabajador a escala.",
     "condition": "Usado - buen estado",
-    "price": 280,
+    "price": 150,
     "images": [
       "jcb-retroexcavadora-01.jpg",
       "jcb-retroexcavadora-02.jpg"
@@ -1309,7 +1258,7 @@
     "brand": "CAT",
     "description": "Excavadora de juguete marca CAT con brazo y pala articulados, incluye figura de trabajador a escala para jugar.",
     "condition": "Usado - buen estado",
-    "price": 250,
+    "price": 200,
     "images": [
       "cat-excavadora-figura.jpg"
     ]
@@ -1322,7 +1271,7 @@
     "brand": "Monk Skates",
     "description": "Patineta tipo cruiser en azul con ruedas amarillas, ideal para paseo casual. Muestra desgaste propio del uso.",
     "condition": "Usado - con detalle",
-    "price": 180,
+    "price": 300,
     "images": [
       "patineta-monk-azul-01.jpg",
       "patineta-monk-azul-02.jpg"
@@ -1376,22 +1325,9 @@
     "brand": null,
     "description": "Disfraz tipo mameluco de reno en felpa suave, con capucha de cuernos y moño rojo. Ideal para posadas o Navidad.",
     "condition": "Usado - buen estado",
-    "price": 250,
+    "price": 200,
     "images": [
       "disfraz-reno-mameluco.jpg"
-    ]
-  },
-  {
-    "id": "conjunto-tweed-blanco-negro-nina",
-    "title": "Conjunto saco y falda tweed blanco y negro",
-    "category": "ropa_dama",
-    "size": "CH",
-    "brand": null,
-    "description": "Conjunto formal de saco cruzado con botones y falda a juego en tweed blanco con líneas negras. Ideal para eventos especiales.",
-    "condition": "Usado - buen estado",
-    "price": 240,
-    "images": [
-      "conjunto-tweed-blanco-negro.jpg"
     ]
   },
   {
@@ -1402,7 +1338,7 @@
     "brand": null,
     "description": "Set de 3 cortinas: dos lisas en gris tipo jersey y una semitransparente en tono hueso con bordado de flores. Se venden juntas.",
     "condition": "Usado - buen estado",
-    "price": 250,
+    "price": 200,
     "images": [
       "IMG_1864.jpg",
       "IMG_1865.jpg",

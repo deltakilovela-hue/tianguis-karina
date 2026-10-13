@@ -47,29 +47,6 @@ select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
 
 button { font-family: inherit; }
 
-/* Preview banner */
-.preview-banner {
-  background: #fff2cc;
-  color: #6b5716;
-  font-size: 0.82rem;
-  padding: 10px 44px 10px 14px;
-  text-align: center;
-  position: relative;
-  border-bottom: 1px solid #eddca0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-.preview-banner .icon { color: #a8862a; }
-.preview-banner button {
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.preview-banner[hidden] { display: none; }
-
 .icon-btn-plain {
   background: none;
   border: none;

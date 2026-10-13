@@ -411,9 +411,6 @@ function bindEvents() {
     window.open(url, "_blank");
   });
 
-  const banner = el("#previewBanner");
-  el("#closeBanner").addEventListener("click", () => (banner.hidden = true));
-
   document.addEventListener("keydown", (e) => {
     const modalOpen = el("#modalOverlay").classList.contains("visible");
     if (e.key === "Escape") {

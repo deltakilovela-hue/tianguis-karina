@@ -160,7 +160,7 @@ function carouselHTML(images, title, extraClass = "") {
   <div class="carousel ${extraClass}" data-count="${images.length}">
     <div class="carousel-track">
       ${images
-        .map((img, i) => `<div class="carousel-slide"><img src="images/${img}" alt="${alt}"${i === 0 ? "" : ' loading="lazy"'} draggable="false"></div>`)
+        .map((img, i) => `<div class="carousel-slide"><img src="images/${img}" alt="${alt}"${i === 0 ? "" : ' loading="lazy"'} draggable="false" onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src='images/${img}?r='+Date.now();}"></div>`)
         .join("")}
     </div>
     ${
